@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR</title>
+    <style>
+      :root {
+        --qr-size: min(80vw, 360px);
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #ffffff;
+      }
+
+      img {
+        width: var(--qr-size);
+        height: var(--qr-size);
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="148318.jpg" alt="QR code" />
+  </body>
+</html>
